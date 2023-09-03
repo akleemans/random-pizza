@@ -1,0 +1,14 @@
+<div class="container">
+  <div>
+    <h2 *ngIf="pizza == undefined">Random pizza!</h2>
+
+    <img src="assets/pizza.png" [class.rotate]="animate" (click)="choosePizza()" *ngIf="pizza == undefined">
+
+    <div *ngIf="pizza !== undefined">
+      <h1>{{pizza?.name}}</h1>
+      <ul>
+        <li *ngFor="let ingredient of ingredients">{{ingredient}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
