@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1699715966854,
+  "index": "/random-pizza/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/random-pizza/favicon.ico",
+        "/random-pizza/index.html",
+        "/random-pizza/main.20292bbbfdf58345.js",
+        "/random-pizza/manifest.webmanifest",
+        "/random-pizza/polyfills.f98fed4938c05b48.js",
+        "/random-pizza/runtime.7fc0ccf1ff2fc176.js",
+        "/random-pizza/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/random-pizza/assets/android-chrome-192x192.png",
+        "/random-pizza/assets/android-chrome-256x256.png",
+        "/random-pizza/assets/apple-touch-icon.png",
+        "/random-pizza/assets/favicon-16x16.png",
+        "/random-pizza/assets/favicon-32x32.png",
+        "/random-pizza/assets/icons/icon-128x128.png",
+        "/random-pizza/assets/icons/icon-144x144.png",
+        "/random-pizza/assets/icons/icon-152x152.png",
+        "/random-pizza/assets/icons/icon-192x192.png",
+        "/random-pizza/assets/icons/icon-384x384.png",
+        "/random-pizza/assets/icons/icon-512x512.png",
+        "/random-pizza/assets/icons/icon-72x72.png",
+        "/random-pizza/assets/icons/icon-96x96.png",
+        "/random-pizza/assets/pizza.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/random-pizza/assets/android-chrome-192x192.png": "33406ec318b9eee519df97eb07cf3c55847c63c4",
+    "/random-pizza/assets/android-chrome-256x256.png": "6b9f99725feb71986b2ab3bd7198fd3c1cbeeeac",
+    "/random-pizza/assets/apple-touch-icon.png": "f061b5da1fb89958928abffe2f9b42dca881aa1e",
+    "/random-pizza/assets/favicon-16x16.png": "f9b2a38a1036912a8e4b78dfb82c73461fad9cd0",
+    "/random-pizza/assets/favicon-32x32.png": "fb11d3baba3055efb189ce9ca4e09ce2466ab549",
+    "/random-pizza/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/random-pizza/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/random-pizza/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/random-pizza/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/random-pizza/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/random-pizza/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/random-pizza/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/random-pizza/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/random-pizza/assets/pizza.png": "b7cdccf169d60ffa6bfa06f0c0f10e4e3e732111",
+    "/random-pizza/favicon.ico": "7ad35c52924b0226da5718a65d34e766b40d6f6e",
+    "/random-pizza/index.html": "d50f14787d692f0311371a46c2f01564a40d21b8",
+    "/random-pizza/main.20292bbbfdf58345.js": "e76e06d8012bd54e9e774541a3f9a7320ab6fd81",
+    "/random-pizza/manifest.webmanifest": "7447297c632c80d72df1c4986e56948522fdfe9c",
+    "/random-pizza/polyfills.f98fed4938c05b48.js": "045af98a8c6b272d64d59051a0718cfc1a6a28dc",
+    "/random-pizza/runtime.7fc0ccf1ff2fc176.js": "b3a26dea72ee4236ef81dfef2bdd54eebd373126",
+    "/random-pizza/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
