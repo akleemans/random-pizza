@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699716313774,
+  "timestamp": 1699716529836,
   "index": "/random-pizza/index.html",
   "assetGroups": [
     {
@@ -36,6 +36,7 @@
         "/random-pizza/assets/favicon-32x32.png",
         "/random-pizza/assets/icons/icon-128x128.png",
         "/random-pizza/assets/icons/icon-192x192.png",
+        "/random-pizza/assets/icons/icon-256x256.png",
         "/random-pizza/assets/icons/icon-72-72.png",
         "/random-pizza/assets/icons/icon-96x96.png",
         "/random-pizza/assets/pizza.png"
@@ -52,13 +53,14 @@
     "/random-pizza/assets/favicon-32x32.png": "fb11d3baba3055efb189ce9ca4e09ce2466ab549",
     "/random-pizza/assets/icons/icon-128x128.png": "6edce8eaa722ca949bc0aab1df97a91e9d66e12c",
     "/random-pizza/assets/icons/icon-192x192.png": "33406ec318b9eee519df97eb07cf3c55847c63c4",
+    "/random-pizza/assets/icons/icon-256x256.png": "6b9f99725feb71986b2ab3bd7198fd3c1cbeeeac",
     "/random-pizza/assets/icons/icon-72-72.png": "5872e16d7fab75eb37ea6c88ca5dfdcab8c8497a",
     "/random-pizza/assets/icons/icon-96x96.png": "59e590d8886b907f585185d96b83b42d9e632a72",
     "/random-pizza/assets/pizza.png": "b7cdccf169d60ffa6bfa06f0c0f10e4e3e732111",
     "/random-pizza/favicon.ico": "7ad35c52924b0226da5718a65d34e766b40d6f6e",
     "/random-pizza/index.html": "d50f14787d692f0311371a46c2f01564a40d21b8",
     "/random-pizza/main.20292bbbfdf58345.js": "e76e06d8012bd54e9e774541a3f9a7320ab6fd81",
-    "/random-pizza/manifest.webmanifest": "7bedf1843cd5b5861ea62b1ff5b2b9ec89fa16b1",
+    "/random-pizza/manifest.webmanifest": "62fff31356bbb4c1ada56d1241a9c58f7209df3e",
     "/random-pizza/polyfills.f98fed4938c05b48.js": "045af98a8c6b272d64d59051a0718cfc1a6a28dc",
     "/random-pizza/runtime.7fc0ccf1ff2fc176.js": "b3a26dea72ee4236ef81dfef2bdd54eebd373126",
     "/random-pizza/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
