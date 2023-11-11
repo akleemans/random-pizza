@@ -16,6 +16,7 @@ export class AppComponent {
   public ingredients: string[] = [];
   public allPizzas: Pizza[] = ALL_PIZZAS;
   public animate = false;
+  private spinningTimeMs = 2500;
 
   public choosePizza(): void {
     if (this.animate) {
@@ -27,6 +28,6 @@ export class AppComponent {
       const randomIdx = Math.floor(Math.random() * this.allPizzas.length);
       this.pizza = this.allPizzas[randomIdx];
       this.ingredients = this.pizza.ingredients.split(', ')
-    }, 3000);
+    }, this.spinningTimeMs);
   }
 }
