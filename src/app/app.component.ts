@@ -18,6 +18,9 @@ export class AppComponent {
   public animate = false;
 
   public choosePizza(): void {
+    if (this.animate) {
+      return;
+    }
     this.animate = true;
     setTimeout(() => {
       this.animate = false;

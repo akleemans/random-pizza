@@ -1,7 +1,7 @@
 <div class="container">
   <div>
     <h2 *ngIf="pizza == undefined">Random pizza!</h2>
-    <img src="assets/pizza.png" [class.rotate]="animate" (click)="choosePizza()" *ngIf="pizza == undefined">
+    <img src="assets/pizza.png" [class.rotate]="animate" (click)="choosePizza()" *ngIf="pizza == undefined" alt="pizza">
     <h2 *ngIf="pizza == undefined">&nbsp;</h2>
 
     <div *ngIf="pizza !== undefined">
