@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ALL_PIZZAS} from "./pizzas";
+import {HttpClient} from "@angular/common/http";
 
 interface Pizza {
   name: string;
@@ -11,12 +12,15 @@ interface Pizza {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   public pizza?: Pizza;
   public ingredients: string[] = [];
   public allPizzas: Pizza[] = ALL_PIZZAS;
   public animate = false;
   private spinningTimeMs = 2500;
+
+  public constructor(private readonly http: HttpClient) {
+  }
 
   public choosePizza(): void {
     if (this.animate) {
@@ -29,5 +33,9 @@ export class AppComponent {
       this.pizza = this.allPizzas[randomIdx];
       this.ingredients = this.pizza.ingredients.split(', ')
     }, this.spinningTimeMs);
+  }
+
+  public ngOnInit(): void {
+    this.http.get('https://akleemans.pythonanywhere.com/api/visitors?project=random-pizza').subscribe();
   }
 }

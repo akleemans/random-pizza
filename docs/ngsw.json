@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699719954137,
+  "timestamp": 1730063044690,
   "index": "/random-pizza/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/random-pizza/favicon.ico",
         "/random-pizza/index.html",
-        "/random-pizza/main.054021b15e87af74.js",
+        "/random-pizza/main.2a79d733461a9024.js",
         "/random-pizza/manifest.webmanifest",
         "/random-pizza/polyfills.f98fed4938c05b48.js",
         "/random-pizza/runtime.7fc0ccf1ff2fc176.js",
@@ -62,8 +62,8 @@
     "/random-pizza/assets/icons/icon-96x96.png": "59e590d8886b907f585185d96b83b42d9e632a72",
     "/random-pizza/assets/pizza.png": "b7cdccf169d60ffa6bfa06f0c0f10e4e3e732111",
     "/random-pizza/favicon.ico": "7ad35c52924b0226da5718a65d34e766b40d6f6e",
-    "/random-pizza/index.html": "b79526cd066756e9d459c4b72feb56c34644fb12",
-    "/random-pizza/main.054021b15e87af74.js": "e605c632472b8f6682cc088a1665425301b0b9b0",
+    "/random-pizza/index.html": "5157d804cc461045c5ad466d0c290efdfb02f5ad",
+    "/random-pizza/main.2a79d733461a9024.js": "8e2a0e8bf32fd8e2745ed3d22b17d835e949a532",
     "/random-pizza/manifest.webmanifest": "d40d7080c2969d27c61ed9fd5d90117c2b91d63f",
     "/random-pizza/polyfills.f98fed4938c05b48.js": "045af98a8c6b272d64d59051a0718cfc1a6a28dc",
     "/random-pizza/runtime.7fc0ccf1ff2fc176.js": "b3a26dea72ee4236ef81dfef2bdd54eebd373126",
